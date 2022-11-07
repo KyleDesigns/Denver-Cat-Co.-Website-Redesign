@@ -46,16 +46,11 @@ ul {
 }
 
 .container-fluid {
-    column-gap: 0px;
-    gap: 0px;
-    justify-content: space-around;
-    justify-items: center;
-    padding: 50px;
-    padding-left: 100px;
-    padding-right: 100px;
+   padding: 40px;
 }
 
 .titlesection {
 display: flex;
 justify-content: center;
+padding-top: 25px;
 }
