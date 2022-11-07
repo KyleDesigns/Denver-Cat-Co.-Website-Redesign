@@ -54,3 +54,10 @@ display: flex;
 justify-content: center;
 padding-top: 25px;
 }
+
+.imagelabel {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 1px;
+    }
