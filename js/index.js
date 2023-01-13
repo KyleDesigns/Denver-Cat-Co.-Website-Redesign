@@ -1,3 +1,4 @@
+console.log("Your index.js file is loaded corrcectly");
 let mybutton = document.getElementById("myButn");
 $( "button").hover(
     function() {
