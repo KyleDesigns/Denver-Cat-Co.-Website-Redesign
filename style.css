@@ -70,23 +70,38 @@ padding-top: 25px;
         width: 100%; /* Full width */
       }
 
-      #myButn {
-        display: auto; /* Hidden by default */
+#myBtn {
+        display: none; /* Hidden by default */
         position: fixed; /* Fixed/sticky position */
-        bottom: 20px; /* Place the button at the bottom of the page */
-        right: 30px; /* Place the button 30px from the right */
+        bottom: 80px; /* Place the button at the bottom of the page */
+        right: 40px; /* Place the button 30px from the right */
         z-index: 99; /* Make sure it does not overlap */
-        border-color: #02ac3b; /* Remove borders */
-        outline: none; /* Remove outline */
-        background-color: #313b57; /* Set a background color */
+        border: 1%; /* Remove borders */
+        text-decoration: none;
+        outline-style: solid;
+        outline: limegreen; /* Remove outline */
+        outline-style: solid;
+        background-color: #0D1526; /* Set a background color */
         color: white; /* Text color */
         cursor: pointer; /* Add a mouse pointer on hover */
-        padding: 15px; /* Some padding */
-        border-radius: 10px; /* Rounded corners */
-        font-size: 18px; /* Increase font size */
-    }
+        padding-top: 6px; /* Some padding */
+        padding-bottom:8px;
+        padding-left: 15px;
+        padding-right:15px;
+        line-height: normal;
+        border-radius: 800px; /* Rounded corners */
+        font-size: 25px; /* Increase font size */
+        letter-spacing: 0px;
+        word-spacing: 0px;
+        transform: scale(1, -1);
+                -moz-transform: scale(1, -1);
+                -webkit-transform: scale(1, -1);
+                -o-transform: scale(1, -1);
+                -ms-transform: scale(1, -1);
+                transform: scale(1, -1);
+      }
     
-    #myButn:hover {
+#myBtn:hover {
         background-color: rgb(53, 69, 104); /* Add a dark-grey background on hover */
     }
     

@@ -1,5 +1,5 @@
 console.log("Your index.js file is loaded corrcectly");
-let mybutton = document.getElementById("myButn");
+let mybutton = document.getElementById("myBtn");
 $( "button").hover(
     function() {
         $(this).css("background-color", "limegreen");
